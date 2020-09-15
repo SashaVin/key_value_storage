@@ -11,7 +11,7 @@ def exit(key):
         try:
             print(d.join(x[key]))
         except KeyError:
-            print('')
+            print()
 
 
 def check():
